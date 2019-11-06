@@ -1,4 +1,6 @@
 <template lang="pug">
-  div(style="width:100wv") 
-    div(style="width:50%") Hello
+  v-container.gray.lighten-5.fill-height
+    v-row
+      v-col(cols="5")
+        v-card.outlined.tile First Column
 </template>
