@@ -1,5 +1,15 @@
 <template lang="pug">
-  v-container.gray.lighten-5.fluid
-    v-row(align="center" justify="center")
-      v-col(cols="5") Selected user id is {{$route.params.id}}
+  div.right-side-container 
+    div 
+      h1 Selected user id is {{$route.params.id}}
 </template>
+
+<style scoped>
+  .right-side-container{
+    height: 100%; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+</style>

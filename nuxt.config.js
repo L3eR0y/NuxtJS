@@ -1,3 +1,6 @@
 export default {
-  buildModules: ['@nuxt/typescript-build','@nuxtjs/vuetify',]
+  buildModules: ['@nuxt/typescript-build','@nuxtjs/vuetify',],
+  vuetify: {
+    customVariables: ['~/assets/variables.scss']
+  }
 }
