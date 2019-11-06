@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.4",
+    "av-ts": "^0.10.0",
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.4",
+    "@nuxtjs/vuetify": "^1.9.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
+  }
+}

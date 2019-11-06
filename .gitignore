@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# nuxt.js build output
+.nuxt
+.history/
+
+# Nuxt generate
+dist
+_dist
+
+
